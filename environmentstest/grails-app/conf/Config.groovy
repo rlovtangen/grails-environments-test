@@ -55,6 +55,8 @@ environments {
     }
     development {
         grails.serverURL = "http://localhost:8080/${appName}"
+		grails.mail.port="25"
+		my.custom.property = "a"
     }
     test {
         grails.serverURL = "http://localhost:8080/${appName}"
