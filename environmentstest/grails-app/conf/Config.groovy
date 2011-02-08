@@ -91,3 +91,9 @@ log4j = {
 grails.plugins.dynamicController.mixins = [
    'com.burtbeckwith.grails.plugins.appinfo.PropertiesControllerMixin' : 'com.burtbeckwith.appinfo_test.AdminManageController'
 ]
+
+environments {
+   development {
+		my.other.propery = "b"
+   }
+}
