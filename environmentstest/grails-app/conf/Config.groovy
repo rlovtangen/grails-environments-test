@@ -85,3 +85,7 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+grails.plugins.dynamicController.mixins = [
+   'com.burtbeckwith.grails.plugins.appinfo.PropertiesControllerMixin' : 'com.burtbeckwith.appinfo_test.AdminManageController'
+]
